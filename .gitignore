@@ -1,3 +1,4 @@
 .vscode/
 node_modules/
-data/export/**
+data/export/
+data/upload/
