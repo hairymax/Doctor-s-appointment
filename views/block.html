@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Запись к врачу</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#block-txt-"+$("#block-type").text()).removeClass("hidden");
+            var months = ["январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь","декабрь"];
+            var d = new Date(new Date().getTime() + 25 * 24 * 60 * 60 * 1000);
+            $("#my").html(months[d.getMonth()] + " " + d.getFullYear());
+        });
+    </script>
+</head>
+<body>
+
+<div id="block-type" class="hidden"><%= b_type %></div>
+
+<div id = "appointment-window" class="container vmargin">
+    <h4><a href="http://github.com/hairymax/">Вернуться на главную страницу</a></h4>
+
+    <div id="block-txt-1" class="alert alert-danger col-md-12 col-sm-12 hidden">
+        <h3 class="text-info">Онлайн запись закрыта на 15 минут</h3>
+        <h4>К сожалению сейчас нет возможности произвести запись на нашем сайте (производится обработка записи) </h4>
+        <h4>Это займёт немного времени, скоро запись будет открыта </h4><br>
+        <h4>Есть альтернативные варианты (при наличии свободных талонов):</h4>
+        <h4>- В рабочие дни <b>с <%= trb %> до <%= tre %></b> при личном обращении в регистратуру или по телефону</h4>
+        <h4>- Онлайн на портале государственных услуг gosuslugi.ru (требуется регистрация)</h4>
+    </div>
+
+    <div id="block-txt-2" class="alert alert-danger col-md-12 col-sm-12 hidden">
+        <h3 class="text-info">Онлайн запись на текущий месяц закрыта</h3>
+        <h4>К сожалению сейчас нет возможности произвести запись на нашем сайте
+            (отсутствуют  свободные талоны для онлайн-записи) </h4><br>
+        <h4>Есть альтернативные варианты (при наличии свободных талонов):</h4>
+        <h4>- В рабочие дни <b>с <%= trb %> до <%= tre %></b> при личном обращении в регистратуру или по телефону</h4>
+        <h4>- Онлайн на портале государственных услуг gosuslugi.ru (требуется регистрация)</h4>
+    </div>
+
+    <div id="block-txt-3" class="alert alert-danger col-md-12 col-sm-12 hidden">
+        <h3 class="text-info">Талоны на текущий месяц закончились. </h3>
+        <h3 class="text-info">Запись на <var id="my"></var> будет доступна  следующем режиме:</h3>
+        <h4>- В рабочие дни <b>с <%= dr %> с <%= trb %> до <%= tre %></b> при личном обращении в регистратуру или по телефону</h4>
+        <h4>- Онлайн на портале государственных услуг gosuslugi.ru <b>с <%= dg %> <%= tg %></b> (требуется регистрация)</h4>
+    </div>
+
+</div>
+</body>
+</html> 

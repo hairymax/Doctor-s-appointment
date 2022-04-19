@@ -1,0 +1,42 @@
+.vmargin {
+    margin-top: 20px;
+}
+
+.vmargin-sm {
+    margin-top: 10px;
+}
+
+.dinp{
+     min-width: 0;
+     margin: 0 auto;
+     max-width: 45px;
+     display: inline;
+}
+
+.minp{
+    min-width: 0;
+    margin: 0 auto;
+    max-width: 110px;
+    display: inline;
+}
+
+.yinp{
+    min-width: 0;
+    margin: 0 auto;
+    max-width: 60px;
+    display: inline;
+}
+
+.tinp{
+    min-width: 0;
+    margin: 0 auto;
+    max-width: 70px;
+    display: inline;
+}
+
+.dtinp{
+    min-width: 0;
+    margin: 0 auto;
+    max-width: 110px;
+    display: inline;
+}

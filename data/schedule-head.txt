@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html;charset=windows-1251"><title>saved_schedule_data</title></head><body><table border="1" bgcolor="#ffffff" cellspacing="0"><font face="Arial" color="#000000"><caption><b>импорт</b></caption></font>
+
+<thead><tr><th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">Код1</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">№ВРАЧА</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ВРЕМЯ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ДАТА</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">КОДВ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ДЕНЬНЕДЕЛИ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ПАЦИЕНТ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ДАТАРОЖД</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">РАЙОН</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ЗАПИСЬ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ФИОВРАЧА</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ЛОГ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">Код</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ЧЕТ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">РЕГАЛИИ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ДЕНЬКОД</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">КАБ</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">СМЕНА</font></th>
+<th bgcolor="#c0c0c0" bordercolor="#000000"><font style="FONT-SIZE:10pt" face="Arial" color="#000000">ПОЛИС</font></th>
+
+</tr></thead><tbody>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Запись на приём к врачу </title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.printPage.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div id="varfio" class="hidden"><%= pat_fio %></div>
+<div id="varbday" class="hidden"><%= pat_bday %></div>
+<div id="varpolis" class="hidden"><%= pat_polis %></div>
+
+<div id = "appointment-window"
+    class="container col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+    <h4><a href="http://github.com/hairymax">Вернуться на главную страницу</a></h4>
+
+    <h3 ALIGN=CENTER >Запись на приём к врачу</h3>
+
+    <div class="alert alert-warning">
+        <h4 class="text-danger"> Баннер с информацией</h4>
+    </div>
+
+    <h4 class="text-center">Заполните поля ниже</h4>
+
+    <form role="form" class="form-group">
+        <div class="form-horizontal col-md-12">
+            <label for="appointment-patient">Пациент: </label>
+            <input required type="text" class="form-control" id="appointment-patient" minlength=2
+                   placeholder="Фамилия Имя Отчество">
+        </div>
+
+        <div class="form-horizontal col-md-5" id="pbdate">
+            <label class="vmargin-sm" for="pbdate">Дата рождения:</label>
+            <div>
+                <input required class="form-control dinp" id="pbday" placeholder="01">
+                <select required class="form-control minp" id="pbmonth">   </select>
+                <input required class="form-control yinp" id="pbyear" placeholder="2000">
+            </div>
+        </div>
+
+        <div class="form-horizontal col-md-7" id="ppolis">
+            <label class="vmargin-sm" for="appointment-ppolis">Полис ОМС:</label>
+            <div>
+                <input type="text" class="form-control" id="appointment-ppolis"
+                       placeholder="номер полиса (необязательно)">
+            </div>
+        </div>
+
+    </form>
+
+    <div class="form-group vmargin-sm col-md-12 col-sm-12 col-xs-12" id="appointment-doctor">
+        Выберите врача из списка
+    </div>
+
+    <div id="appointment-selector" class="col-md-12">
+        <!-- таблица с выбором врачей -->
+    </div>
+
+    <div class="alert alert-warning btn-toolbar col-md-12" role="toolbar">
+        <div id="appointment-help" class=" btn-group pull-left text-left">
+            <p class="alert-text">Заполните обязательные поля</p>
+        </div>
+        <div id="appointment-btns" class="btn-lg pull-right text-right">
+            <a id="appointment-again" class='btn btn-warning hidden' style='margin-right: 20pt' href="/">
+                Вернуться к выбору врача</a>
+            <button id="appointment-ok" type="submit" class="btn btn-primary">Продолжить запись</button>
+        </div>
+    </div>
+</div>
+    
+<script type="text/javascript" src="js/ap-enroll.js?2016.12.12"></script>
+    
+</body>
+</html>
