@@ -30,7 +30,8 @@ The required packages are listed in _package.json_
 
 ## Demos
 Some demonstrations of the application are shown as animations in `demos/` directory
-All names are fake.
+
+All doctors names are fake.
 
 ### 1. The process of making an appointment with a doctor
 
