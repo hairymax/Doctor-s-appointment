@@ -12,6 +12,7 @@ The schedule is stored in the clinic's subsystem in a specific html format. For 
 
 - **Backend**:  `Node.js`, for database management - `PostgreSQL` (via `pg` and `pgtools` packages)
 - **Frontend**: `jQuery` v1.11.1, `Bootstrap` v3.3.6, `HTML`
+The required packages are listed in _package.json_
 
 ## Structure of project
 - `app.js` - server application
@@ -41,3 +42,7 @@ All names are fake.
 ### 3. Handling conflicts
 
 ![](demos/2.conflict.gif)
+
+
+## ----
+You are free to use the code of this project
