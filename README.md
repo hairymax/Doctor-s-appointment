@@ -28,7 +28,7 @@ The schedule is stored in the clinic's subsystem in a specific html format. For 
 
 ## Demos
 Some demonstrations of the application are shown as animations in `demos/` directory
-* All names are fake.
+All names are fake.
 
 ### 1. The process of making an appointment with a doctor
 
@@ -40,4 +40,4 @@ Some demonstrations of the application are shown as animations in `demos/` direc
 
 ### 3. Handling conflicts
 
-![](demos/2.conflicts.gif)
+![](demos/2.conflict.gif)
