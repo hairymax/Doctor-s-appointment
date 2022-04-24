@@ -23,5 +23,14 @@ The schedule is stored in the clinic's subsystem in a specific html format. For 
 - `views/js/` - client-side scripts 
   - `ap-enroll.js` - the logic of the appointment page
   - `ap-import-export.js.js` - the logic of the management page 
+- `data/` - directory for imported and exported schedule data in the clinic's subsystem html format 
 
-Some demonstrations of the application are shown as animations 
+
+## Demos
+Some demonstrations of the application are shown as animations in `demos/` directory
+
+1. The process of making an appointment with a doctor
+![](demos/0.appointment.gif)
+2. Management: blocking appointment page, import/export 
+![](demos/1.management.gif)
+3.
