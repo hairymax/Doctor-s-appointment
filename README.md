@@ -24,7 +24,7 @@ The required packages are listed in _package.json_
   - `page-which-address-no-one-knows.html` - management page
 - `views/js/` - client-side scripts 
   - `ap-enroll.js` - the logic of the appointment page
-  - `ap-import-export.js.js` - the logic of the management page 
+  - `ap-import-export.js` - the logic of the management page 
 - `data/` - directory for imported and exported schedule data in the clinic's subsystem html format 
 
 
